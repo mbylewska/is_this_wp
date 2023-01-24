@@ -15,17 +15,11 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
-        /* .container {
-            margin: auto;
-            text-align: center;
-
-        } */
 
         .container {
             margin-top: 3rem;
             position: relative;
             text-align: center;
-            /* border-radius: 20px; */
             padding: 50px;
             box-sizing: border-box;
             background: #E6EDF0;
@@ -41,18 +35,15 @@
         input {
             padding: 0.5rem;
             border: none;
-            /* box-shadow: inset 6px 6px 6px #D9E4E8, inset -6px -6px 6px white; */
         }
 
         .btn {
-            /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
             transition: 0.5s;
             background-color: #B3C9D1;
         }
 
         .btn:hover {
             background-color: #8CAEBA;
-
         }
 
         p {
@@ -68,7 +59,7 @@
 
 <body>
     <div class="container">
-        <h2>Is this website build in WordPress?</h2>
+        <h2>Is this website build with WordPress?</h2>
 
         <form name='website' method="POST">
             <label for="url">Put URL here: </label><input type="text" name="url" placeholder="https://mysite.com">
